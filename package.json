@@ -1,0 +1,18 @@
+{
+  "name": "corss-domain-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:app1": "nodemon ./src-domain1/app.js",
+    "dev:app2": "nodemon ./src-domain2/app.js",
+    "dev": "npm run dev:app1 & npm run dev:app2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
